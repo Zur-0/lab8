@@ -5,8 +5,8 @@
 ##
 var year:=Readinteger('Какой сейчас год?');
 assert(year>0);
-if (year.Divs(4) and not year.Divs(100)) then print('Високосный год')
-else print('Не високосный год');
+if (year.Divs(4) and not year.Divs(100)) then print('Високосный год 366 дней')
+else print('Не високосный год 365 дней');
 {Какой сейчас год? 2016
 Високосный год }
 {Какой сейчас год? 2017
